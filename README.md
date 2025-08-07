@@ -72,7 +72,7 @@ SELECT * FROM Reporting.CustomerKPI;
 | 11001      | Jane Smith    | 15,800       | 5,600        | Gold          |
 | 11045      | David Brown   | 7,240        | 2,300        | Silver        |
 
-> 🖼️ Add screenshot here: _customer_kpi_output.png_
+> ![Reporting output](Reporting.png)
 
 ---
 
@@ -88,7 +88,7 @@ SELECT * FROM Reporting.ReportAuditLog ORDER BY ExecutionDate DESC;
 |--------------------------|----------------------|----------------|---------|---------------|
 | usp_GenerateCustomerKPIReport | 2025-08-07 14:39 | 140            | Success | NULL          |
 
-> 🖼️ Add screenshot here: _audit_log_output.png_
+> ![Error Logs](Error_logging.png)
 
 ---
 
